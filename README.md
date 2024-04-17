@@ -1,7 +1,6 @@
 # FlashZap
 This Website Consist of 
-Client
-index.php (landing page)
+Client landing page (index.php),
 Products ( is accessible without logging in but when user tries to add product in cart , it askes login first all other pages are strict requires login first )
 Add to cart button 
 Account
@@ -32,13 +31,14 @@ Order view (can view only order placed by userclient consisting of products uplo
 
 Database
 Tables
-cart 
+
+- cart 
 (cartID,prodID,username,quantity)
-orders
+- orders
 (orderID,prodID,usernameod,address,totalprice,quantityod)
-products
+- products
 (prodID,username,prodname,price,details,imgpath,status)
-user(Seller)
+- user(Seller)
 (userID,username,password)
-userclient
+- userclient
 (userID,usernamecl,password,address)
